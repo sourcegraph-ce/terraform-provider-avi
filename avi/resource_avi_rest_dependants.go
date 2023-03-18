@@ -7991,7 +7991,7 @@ func ResourceDnsRuleSchema() *schema.Resource {
 				Optional: true,
 				Computed: true,
 			},
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeBool,
 				Optional: true,
 				Computed: true,
@@ -13099,7 +13099,7 @@ func ResourceHTTPRequestRuleSchema() *schema.Resource {
 				Type:     schema.TypeInt,
 				Required: true,
 			},
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeBool,
 				Optional: true,
 				Computed: true,
@@ -13197,7 +13197,7 @@ func ResourceHTTPResponseRuleSchema() *schema.Resource {
 				Computed: true,
 				Elem:     ResourceHTTPRewriteLocHdrActionSchema(),
 			},
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeBool,
 				Optional: true,
 				Computed: true,
@@ -13365,7 +13365,7 @@ func ResourceHTTPSecurityRuleSchema() *schema.Resource {
 				Type:     schema.TypeInt,
 				Required: true,
 			},
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeBool,
 				Optional: true,
 				Computed: true,
@@ -17658,7 +17658,7 @@ func ResourceNetworkSecurityRuleSchema() *schema.Resource {
 				Type:     schema.TypeInt,
 				Required: true,
 			},
-			"log": {
+			log "github.com/sourcegraph-ce/logrus": {
 				Type:     schema.TypeBool,
 				Optional: true,
 				Default:  false,

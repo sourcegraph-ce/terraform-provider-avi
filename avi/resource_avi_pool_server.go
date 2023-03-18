@@ -9,7 +9,7 @@ import (
 	"github.com/avinetworks/sdk/go/clients"
 	"github.com/avinetworks/sdk/go/models"
 	"github.com/hashicorp/terraform/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"strconv"
 )
 
