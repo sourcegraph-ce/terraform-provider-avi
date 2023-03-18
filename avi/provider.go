@@ -10,7 +10,7 @@ import (
 	"github.com/avinetworks/sdk/go/session"
 	"github.com/hashicorp/terraform/helper/schema"
 	"github.com/hashicorp/terraform/terraform"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"time"
 )
 

@@ -90,11 +90,11 @@ func (f *LevelFilter) Check(line []byte) bool {
 }
 
 // Write is a specialized implementation of io.Writer suitable for being
-// the output of a logger from the "log" package.
+// the output of a logger from the log "github.com/sourcegraph-ce/logrus" package.
 //
 // This Writer implementation assumes that it will only recieve byte slices
 // containing one or more entire lines of log output, each one terminated by
-// a newline. This is compatible with the behavior of the "log" package
+// a newline. This is compatible with the behavior of the log "github.com/sourcegraph-ce/logrus" package
 // directly, and is also tolerant of intermediaries that might buffer multiple
 // separate writes together, as long as no individual log line is ever
 // split into multiple slices.
