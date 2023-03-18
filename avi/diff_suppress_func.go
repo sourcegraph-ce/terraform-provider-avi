@@ -2,7 +2,7 @@ package avi
 
 import (
 	"github.com/hashicorp/terraform/helper/schema"
-	"log"
+	log "github.com/sourcegraph-ce/logrus"
 	"os"
 	"strconv"
 )
